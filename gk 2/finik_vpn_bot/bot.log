@@ -1,0 +1,68 @@
+2025-02-25 09:03:59,532 [DEBUG] [user_id:N/A] Using selector: KqueueSelector
+2025-02-25 09:03:59,532 [INFO] [user_id:N/A] Инициализация бота
+2025-02-25 09:04:00,792 [INFO] [user_id:N/A] Регистрация обработчиков start
+2025-02-25 09:04:00,792 [INFO] [user_id:N/A] Настройка scheduler
+2025-02-25 09:04:00,795 [INFO] [user_id:N/A] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-25 09:04:00,796 [INFO] [user_id:N/A] Added job "check_subscriptions" to job store "default"
+2025-02-25 09:04:00,796 [INFO] [user_id:N/A] Scheduler started
+2025-02-25 09:04:00,796 [INFO] [user_id:N/A] Принудительный запуск check_subscriptions
+2025-02-25 09:04:00,796 [INFO] [user_id:N/A] Запуск проверки подписок
+2025-02-25 09:04:00,796 [DEBUG] [user_id:N/A] GET utils.marzbanget_marzban_token()[] False (0.0000)s
+2025-02-25 09:04:00,797 [INFO] [user_id:N/A] Попытка получить токен с MARZBAN_URL=https://finik.online:443
+2025-02-25 09:04:00,799 [DEBUG] [user_id:N/A] Looking for jobs to run
+2025-02-25 09:04:00,799 [DEBUG] [user_id:N/A] Next wakeup is due at 2025-02-25 09:24:00.794883-08:00 (in 1199.995744 seconds)
+2025-02-25 09:04:01,406 [INFO] [user_id:N/A] Статус ответа от Marzban: 200
+2025-02-25 09:04:01,408 [DEBUG] [user_id:N/A] SET utils.marzbanget_marzban_token()[] 1 (0.0000)s
+2025-02-25 09:04:01,608 [INFO] [user_id:N/A] Найдено пользователей для проверки: 11
+2025-02-25 09:04:01,794 [INFO] [user_id:N/A] Проверка user_id=6366553522: active=True, days_left=148
+2025-02-25 09:04:01,797 [INFO] [user_id:N/A] Проверка user_id=1315022394: active=True, days_left=28
+2025-02-25 09:04:01,798 [INFO] [user_id:N/A] Проверка user_id=6392406108: active=True, days_left=176
+2025-02-25 09:04:01,798 [INFO] [user_id:N/A] Проверка user_id=1361854308: active=False, days_left=0
+2025-02-25 09:04:01,799 [INFO] [user_id:N/A] Проверка user_id=729603128: active=True, days_left=28
+2025-02-25 09:04:01,986 [INFO] [user_id:N/A] Ответ на запрос данных user_6392406108: 200
+2025-02-25 09:04:01,994 [INFO] [user_id:N/A] Ответ на запрос данных user_6366553522: 200
+2025-02-25 09:04:01,995 [INFO] [user_id:N/A] Ответ на запрос данных user_729603128: 200
+2025-02-25 09:04:01,997 [INFO] [user_id:N/A] Ответ на запрос данных user_1315022394: 200
+2025-02-25 09:04:01,997 [INFO] [user_id:N/A] Ответ на запрос данных user_1361854308: 200
+2025-02-25 09:04:02,119 [INFO] [user_id:N/A] Доступные inbounds: {'vless': [{'tag': 'Steal', 'protocol': 'vless', 'network': 'tcp', 'tls': 'reality', 'port': 7443}, {'tag': 'XTLS', 'protocol': 'vless', 'network': 'tcp', 'tls': 'tls', 'port': 9443}]}
+2025-02-25 09:04:02,119 [INFO] [user_id:N/A] Доступные inbounds: {'vless': [{'tag': 'Steal', 'protocol': 'vless', 'network': 'tcp', 'tls': 'reality', 'port': 7443}, {'tag': 'XTLS', 'protocol': 'vless', 'network': 'tcp', 'tls': 'tls', 'port': 9443}]}
+2025-02-25 09:04:02,121 [INFO] [user_id:N/A] Доступные inbounds: {'vless': [{'tag': 'Steal', 'protocol': 'vless', 'network': 'tcp', 'tls': 'reality', 'port': 7443}, {'tag': 'XTLS', 'protocol': 'vless', 'network': 'tcp', 'tls': 'tls', 'port': 9443}]}
+2025-02-25 09:04:02,121 [INFO] [user_id:N/A] Доступные inbounds: {'vless': [{'tag': 'Steal', 'protocol': 'vless', 'network': 'tcp', 'tls': 'reality', 'port': 7443}, {'tag': 'XTLS', 'protocol': 'vless', 'network': 'tcp', 'tls': 'tls', 'port': 9443}]}
+2025-02-25 09:04:02,122 [INFO] [user_id:N/A] Доступные inbounds: {'vless': [{'tag': 'Steal', 'protocol': 'vless', 'network': 'tcp', 'tls': 'reality', 'port': 7443}, {'tag': 'XTLS', 'protocol': 'vless', 'network': 'tcp', 'tls': 'tls', 'port': 9443}]}
+2025-02-25 09:04:02,223 [INFO] [user_id:N/A] Ключ user_6392406108 успешно включён
+2025-02-25 09:04:02,236 [INFO] [user_id:N/A] Ключ user_729603128 успешно включён
+2025-02-25 09:04:02,245 [INFO] [user_id:N/A] Ключ user_6366553522 успешно включён
+2025-02-25 09:04:02,252 [INFO] [user_id:N/A] Ответ на отключение user_1361854308: 200
+2025-02-25 09:04:02,252 [INFO] [user_id:N/A] Ключ user_1361854308 успешно отключён
+2025-02-25 09:04:02,252 [INFO] [user_id:N/A] Ключ user_1315022394 успешно включён
+2025-02-25 09:04:02,286 [INFO] [user_id:N/A] Проверка user_id=1036439909: active=True, days_left=30
+2025-02-25 09:04:02,299 [INFO] [user_id:N/A] Проверка user_id=7617559821: active=True, days_left=602
+2025-02-25 09:04:02,313 [INFO] [user_id:N/A] Проверка user_id=7179636728: active=False, days_left=0
+2025-02-25 09:04:02,442 [INFO] [user_id:N/A] Ответ на запрос данных user_1036439909: 200
+2025-02-25 09:04:02,444 [INFO] [user_id:N/A] Проверка user_id=6907228424: active=True, days_left=29
+2025-02-25 09:04:02,473 [INFO] [user_id:N/A] Ответ на запрос данных user_7617559821: 200
+2025-02-25 09:04:02,506 [INFO] [user_id:N/A] Ответ на запрос данных user_7179636728: 200
+2025-02-25 09:04:02,535 [INFO] [user_id:N/A] Доступные inbounds: {'vless': [{'tag': 'Steal', 'protocol': 'vless', 'network': 'tcp', 'tls': 'reality', 'port': 7443}, {'tag': 'XTLS', 'protocol': 'vless', 'network': 'tcp', 'tls': 'tls', 'port': 9443}]}
+2025-02-25 09:04:02,540 [INFO] [user_id:N/A] Ответ на запрос данных user_6907228424: 200
+2025-02-25 09:04:02,571 [INFO] [user_id:N/A] Доступные inbounds: {'vless': [{'tag': 'Steal', 'protocol': 'vless', 'network': 'tcp', 'tls': 'reality', 'port': 7443}, {'tag': 'XTLS', 'protocol': 'vless', 'network': 'tcp', 'tls': 'tls', 'port': 9443}]}
+2025-02-25 09:04:02,612 [INFO] [user_id:N/A] Доступные inbounds: {'vless': [{'tag': 'Steal', 'protocol': 'vless', 'network': 'tcp', 'tls': 'reality', 'port': 7443}, {'tag': 'XTLS', 'protocol': 'vless', 'network': 'tcp', 'tls': 'tls', 'port': 9443}]}
+2025-02-25 09:04:02,649 [INFO] [user_id:N/A] Проверка user_id=7245486284: active=True, days_left=29
+2025-02-25 09:04:02,654 [INFO] [user_id:N/A] Доступные inbounds: {'vless': [{'tag': 'Steal', 'protocol': 'vless', 'network': 'tcp', 'tls': 'reality', 'port': 7443}, {'tag': 'XTLS', 'protocol': 'vless', 'network': 'tcp', 'tls': 'tls', 'port': 9443}]}
+2025-02-25 09:04:02,660 [INFO] [user_id:N/A] Ключ user_1036439909 успешно включён
+2025-02-25 09:04:02,690 [INFO] [user_id:N/A] Ключ user_7617559821 успешно включён
+2025-02-25 09:04:02,720 [INFO] [user_id:N/A] Ответ на отключение user_7179636728: 200
+2025-02-25 09:04:02,720 [INFO] [user_id:N/A] Ключ user_7179636728 успешно отключён
+2025-02-25 09:04:02,754 [INFO] [user_id:N/A] Ответ на запрос данных user_7245486284: 200
+2025-02-25 09:04:02,765 [INFO] [user_id:N/A] Ключ user_6907228424 успешно включён
+2025-02-25 09:04:02,852 [INFO] [user_id:N/A] Доступные inbounds: {'vless': [{'tag': 'Steal', 'protocol': 'vless', 'network': 'tcp', 'tls': 'reality', 'port': 7443}, {'tag': 'XTLS', 'protocol': 'vless', 'network': 'tcp', 'tls': 'tls', 'port': 9443}]}
+2025-02-25 09:04:03,059 [INFO] [user_id:N/A] Ключ user_7245486284 успешно включён
+2025-02-25 09:04:03,470 [INFO] [user_id:N/A] Проверка user_id=739047262: active=True, days_left=88
+2025-02-25 09:04:03,586 [INFO] [user_id:N/A] Ответ на запрос данных user_739047262: 200
+2025-02-25 09:04:03,697 [INFO] [user_id:N/A] Доступные inbounds: {'vless': [{'tag': 'Steal', 'protocol': 'vless', 'network': 'tcp', 'tls': 'reality', 'port': 7443}, {'tag': 'XTLS', 'protocol': 'vless', 'network': 'tcp', 'tls': 'tls', 'port': 9443}]}
+2025-02-25 09:04:03,798 [INFO] [user_id:N/A] Ключ user_739047262 успешно включён
+2025-02-25 09:04:03,801 [INFO] [user_id:N/A] Веб-сервер для вебхуков запущен на порту 8080
+2025-02-25 09:04:03,802 [INFO] [user_id:N/A] Запуск polling
+2025-02-25 09:04:03,803 [INFO] [user_id:N/A] Start polling
+2025-02-25 09:04:04,060 [INFO] [user_id:N/A] Run polling for bot @finik_vpn_bot id=8020785579 - 'FINIK VPN'
+2025-02-25 09:10:20,881 [INFO] [user_id:7179636728] Нажата кнопка 'Купить'
+2025-02-25 09:10:21,378 [INFO] [user_id:N/A] Update id=256447073 is handled. Duration 499 ms by bot id=8020785579
